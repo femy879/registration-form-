@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<body>
+<center>
+<h1>Web Site Outline</h1>
+</center>
+<ol>
+     <li>Home page</li>
+     <li>Links page
+          <ol type="I">
+              <li>Links to search engine</li>
+              <li>Links to information site
+                     <ol type="A">
+                     <li>News sites
+                            <ol type="i">
+                            <li>TV based
+                                     <ul style="list-style-type:circle;">
+                                     <li>CNN</li>
+                                     <li>Headline News</li>
+                                     </ul>
+                             <li>Text based
+                                     <ul style="list-style-type:circle;">
+                                     <li>New York Times</li>
+                                     <li>Washington Post</li>
+                                     </ul>
+                            </li>
+                            </ol>       
+                      <li> Stock sites</li>
+                     </li>
+                     </ol>
+             <li>Links to "fun" sites</li>
+              </li>
+              </ol>
+      </li>
+     <li>Feedback page</li>
+     <li>Contact page</li>
+     <li>HTML Example Pages</li>
+</ol>
+</body>
+</html>
