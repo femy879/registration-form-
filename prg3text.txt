@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+ <html>
+ <body>
+    <center>
+<table>
+    <h1><strong>Registration Form</strong></h1>
+<form action="/action_page.php">
+<style>
+::placeholder {
+  color: red;
+}
+</style>
+   <tr>
+   <td> User id:</td>
+   <td><input type="text" id ="Userid"  placeholder="Required and must be of length 5 to 12" minlength="5" maxlength="12"></td>
+   </tr>
+   <tr>
+   <td>Password:</td>
+   <td><input type="password" placeholder="Required and must be of length 7 to 12" minlength="7" maxlength="12"></td>
+   </tr>
+   <tr><td>Name:</td>
+   <td><input type="text" id="Name" style="width:200%" placeholder="Required and alphabets only">
+   </tr></td>
+   <tr><td>Address:</td>
+   <td><input type="text" id="Address"style="width:200%" placeholder="Optional"></td>
+   </tr>
+   <tr><td>Country:<td>
+   <select>
+     <option>India</option>
+    <option>Australia</option>
+    <option>canada</option>
+    <option>China</option>
+    <option>Newzealand</option>
+   </select>
+   </td></tr>
+   <tr><td>ZIP Code:</td>
+   <td><input type="text"  placeholder="Required.Must be numeric only">
+   </td></tr>
+   <tr><td>Email:</td>
+   <td><input type="email" id="email" style="width:200%"placeholder="Required.Must be valid email">
+   </td></tr>
+   <tr><td >Sex:</td>
+  <td> <input type="radio" name="gender" value="male">Male
+           <input type="radio" name="gender" value="female">Female</td>
+   </tr>
+   <tr><td>Language:</td>
+   <td><input type="checkbox" name="language" value="English" checked>English
+          <input type="checkbox" name="language" value="Non English">Non English</td>
+   </tr>
+   <tr><td>About:</td>
+   <td><textarea id="About"name="About"placeholder="Optional."style="height:100px"></textarea>
+   </td></tr>
+   <tr><td colspan=2><center><input type="submit" text
+value="Submit"="Submit"></td></tr>
+</center>
+</table>
+<body>
+<html>
